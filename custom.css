@@ -1,0 +1,492 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+    min-height: 100%;
+    max-width: 100%;
+    margin: 0px !important;
+    padding: 0px !important;
+    backface-visibility: hidden;
+    overflow-x: hidden;
+}
+
+/*header start*/
+.helloworld {
+    background-image: url(img/Login.jpg) !important;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 100%;
+    max-width: 100%;
+    box-shadow: 1px 2px 5px #FFFFFF !important;
+}
+
+.helloworld img {
+    width: 80px;
+    height: auto;
+}
+
+.helloworld2 {
+    background-image: url(img/bigcity.jpg) !important;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 100%;
+    max-width: 100%;
+    box-shadow: 1px 2px 5px #FFFFFF !important;
+}
+
+.showmeso2 {
+    border: 1px solid black;
+    background-color: rgba(0, 0, 0, 0.7) !important;
+    color: bisque !important;
+    width: auto;
+    height: auto;
+    margin-bottom: 250px !important;
+}
+
+.showmeso {
+    margin: 0px !important;
+    border: 1px solid black;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: bisque !important;
+    width: auto;
+    height: auto;
+    margin-bottom: 10px !important;
+    background-image: url(techicons/dark-ln-elephant.png);
+}
+
+#demo {
+    color: orangered !important;
+}
+
+.bcolored1 {
+    box-shadow: 1px 2px 5px #FFFFFF;
+    color: bisque !important;
+    border: 1px solid bisque !important;
+}
+
+.btnlinks, .btnlinks2, .btnlinks3 {
+    color: bisque !important;
+    border: 1px solid bisque !important;
+    width: 200px !important;
+}
+
+.btnlinks:hover {
+    border: 1px solid mediumpurple !important;
+    color: mediumpurple !important;
+    border-radius: 20px !important;
+}
+
+.bcolored1:hover {
+    border: 1px solid mediumpurple !important;
+    color: mediumpurple !important;
+    border-radius: 20px !important;
+}
+
+.bcolored {
+    box-shadow: 1px 2px 5px #FFFFFF !important;
+    color: bisque !important;
+    border: 1px solid bisque !important;
+    background-color: rgba(0, 0, 0, 0.7) !important;
+}
+
+.bcolored:hover {
+    border: 1px solid mediumpurple !important;
+    color: mediumpurple !important;
+    border-radius: 20px !important;
+}
+
+.btoptech {
+    box-shadow: 1px 2px 5px #FFFFFF;
+    color: bisque !important;
+    border: 1px bisque solid !important;
+    background-color: rgba(0, 0, 0, 0.7) !important;
+}
+
+/*a:active{
+    color: blue !important;
+    border-radius: 20px !important;
+    border: 1px blue solid !important;
+}
+a{
+    color: bisque !important;
+    border: 1px bisque solid !important;
+    background-color: rgba(0,0,0,0.7) !important;
+}
+a:hover{
+    color: greenyellow !important;
+    border-radius: 20px !important;
+    border: 1px greenyellow solid !important;
+}*/
+.btoptech3 {
+    box-shadow: 1px 2px 5px #FFFFFF;
+    color: bisque !important;
+    border: 1px bisque solid !important;
+    background-color: rgba(0, 0, 0, 0.7) !important;
+    margin-bottom: 20px !important;
+}
+
+.btoptech3:hover {
+    color: greenyellow !important;
+    border-radius: 20px;
+}
+
+.btoptech:hover {
+    color: greenyellow !important;
+    border-radius: 20px;
+}
+
+.blogout {
+    box-shadow: 1px 2px 5px #FFFFFF;
+    color: bisque !important;
+    border: 1px bisque solid !important;
+    background-color: rgba(0, 0, 0, 0.7) !important;
+    margin-bottom: 20px !important;
+}
+
+.blogout:hover {
+    color: red !important;
+    border-radius: 20px;
+    border: 1px red solid !important;
+}
+
+.btoptech2:hover {
+    color: greenyellow !important;
+    border-radius: 20px;
+    border: 1px greenyellow solid !important;
+}
+
+.btoptech4 {
+    box-shadow: 1px 2px 5px #FFFFFF;
+    width: 200px !important;
+    color: bisque !important;
+    border: 1px bisque solid !important;
+    background-color: rgba(0, 0, 0, 0.7) !important;
+}
+
+.btoptech4:hover {
+    color: greenyellow !important;
+    border-radius: 20px;
+    border: 1px greenyellow solid !important;
+}
+
+.btoptech2 {
+    box-shadow: 1px 2px 5px #FFFFFF !important;
+    color: bisque !important;
+    border: 1px bisque solid !important;
+    background-color: rgba(0, 0, 0, 0.7) !important;
+}
+
+.colorblack {
+    color: black !important;
+}
+
+.colorred {
+    color: red !important;
+}
+
+.colorgreen {
+    color: green !important;
+}
+
+.techstars img {
+    width: 40px !important;
+    height: auto !important;
+}
+
+/*header end*/
+/*modal code css*/
+.techshow {
+    background-color: rgba(0, 0, 0, 0.1) !important;
+    border: 1px bisque solid !important;
+    color: bisque;
+    border-radius: 10px;
+}
+
+.bclose {
+    background-color: rgba(0, 0, 0, 0.7) !important;
+    border: 1px red solid !important;
+}
+
+.modal-body {
+    background-image: url(img/wooden.jpg) !important;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 500px !important;
+    /*min-height: 100%;*/
+    max-width: 100%;
+}
+
+.adminlogin {
+    padding-top: 40px;
+}
+
+.showdanger {
+    text-transform: uppercase;
+    color: red;
+    background-color: white;
+}
+
+.gcolor {
+    margin-left: 90px;
+    min-height: 100%;
+    max-width: 100%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7) !important;
+}
+
+.Sgcolor {
+    margin-left: 80px;
+    min-height: 100%;
+    max-width: 100%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7) !important;
+}
+
+.logos {
+    margin-left: 65px;
+}
+
+#eventshow {
+    min-height: 100% !important;
+    max-width: 100% !important;
+    width: 1000px !important;
+    height: auto !important;
+}
+
+.socialshow {
+    background-color: rgba(0, 0, 0, 0.1) !important;
+    border: 1px darkorange solid !important;
+    color: bisque;
+    border-radius: 10px;
+}
+
+/*end of modal css*/
+
+/*start adminsection*/
+.back {
+    background-image: url(img/Login.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: bisque;
+    margin: 0px !important;
+    padding: 0px !important;
+    backface-visibility: hidden;
+    overflow-x: hidden;
+}
+
+.back2 {
+    background-image: url(img/Login.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: bisque;
+    margin: 0px !important;
+    padding: 0px !important;
+    backface-visibility: hidden;
+    overflow-x: hidden;
+}
+
+.back3 {
+    background-image: url(img/Login.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: bisque;
+    margin: 0px !important;
+    padding: 0px !important;
+    backface-visibility: hidden;
+    overflow-x: hidden;
+}
+
+.lwrite2 {
+    background-color: rgba(0, 0, 0, 0.7) !important;
+    color: bisque !important;
+    border: none !important;
+}
+
+.lwrite {
+    background-color: rgba(0, 0, 0, 0.7) !important;
+    color: bisque !important;
+    border: none !important;
+}
+
+.toptechdark {
+    background-color: rgba(0, 0, 0, 0.7) !important;
+    background-size: cover;
+    background-image: url(techicons/dark-ln-elephant.png);
+}
+
+.separate {
+    border-right: 1px bisque solid !important;
+    height: 700px !important;
+    float: right;
+    background-image: url(img/projects.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*footer section*/
+.footwell1 {
+    background-color: black;
+    color: bisque;
+    border: none !important;
+    height: 710px;
+}
+
+.footwell {
+    background-color: black;
+    color: bisque;
+    border: none !important;
+    height: 710px;
+}
+
+.footer-list {
+    list-style: none;
+    margin-left: 30px;
+    padding-left: 70px;
+}
+
+.footer-list li {
+    border: 1px solid black;
+    padding-top: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+
+}
+
+.btnlinks2:hover {
+    border: 1px solid darkorange !important;
+    color: darkorange !important;
+    border-radius: 20px !important;
+}
+
+.btnlinks3:hover {
+    border: 1px solid greenyellow !important;
+    color: greenyellow !important;
+    border-radius: 20px !important;
+}
+
+.hubweb {
+    color: darkorange;
+    float: bottom;
+    border-bottom: 1px darkorange solid;
+    border-width: auto;
+}
+
+.hubdesk {
+    color: greenyellow;
+    float: bottom;
+    border-bottom: 1px greenyellow solid;
+    border-width: auto;
+}
+
+.hubmob {
+    color: mediumpurple;
+    float: bottom;
+    border-bottom: 1px mediumpurple solid;
+    border-width: auto;
+}
+
+/*end of footer*/
+.details {
+    padding-top: 50px !important;
+}
+
+.topdown {
+    margin-left: 100px !important;
+    margin-top: 0px !important;
+}
+
+.thub {
+    color: black !important;
+}
+
+/*end adminsection*/
+
+/*registratio*/
+.regform {
+    margin: 0px !important;
+}
+
+/*end of reg*/
+/*nav*/
+#well2 {
+    padding-top: opx !important;
+    background-color: black;
+    border: none;
+    color: bisque !important;
+}
+
+#nav1, .nav, .navbar-nav, .navbar-brand {
+    /*background-color: rgba(0, 0, 0, 0.7) !important;*/
+    color: bisque !important;
+}
+
+#imagelogo {
+    margin-top: 245px !important;
+    margin-left: 30px !important;
+}
+
+/*end of nav*/
+/*nav contents*/
+.navbar-default .navbar-header .navbar-brand {
+    color: bisque;
+    height: 110px;
+    border: none;
+}
+
+.navbar-default {
+    box-shadow: 1px 2px 15px #FFFFFF;
+    background-position: center;
+    /*-webkit-background-size: cover;*/
+    /*-moz-background-size: cover;*/
+    /*background-size: cover;*/
+    /*-o-background-size: cover;*/
+    /*background-image: url("img/projects.jpg");*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: cover;*/
+    border: none;
+    color: bisque;
+    background-color: bisque;
+}
+
+.navbar-default .navbar-nav > li > a {
+    padding-top: 50px;
+    padding-right: 50px;
+    color: black;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    border-bottom: 3px black solid;
+    font-size: 15px;
+    color: bisque;
+    font-weight: bold;
+}
+
+.navbar-default .navbar-nav .dropdown > ul {
+    margin-top: 30px;
+    padding: 20px;
+    /*background-color: rgba(0, 0, 0, 0.7);*/
+}
+
+.dropdown .drop > li > a {
+    color: bisque;
+    border: none;
+}
+
+.dropdown .drop > li > a:hover {
+    border-bottom: 2px bisque solid;
+    font-size: 12px;
+    color: bisque;
+    /*background-color: transparent;*/
+}
+
+#logoimage {
+    max-width: 100px;
+    max-height: 80px;
+}
+
+.panelnav {
+    padding-bottom: 220px;
+}
+
+/*//end of navbadr*/
